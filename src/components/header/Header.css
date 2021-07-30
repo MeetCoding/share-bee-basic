@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-yellow);
+    padding: 10px 20px;
+    margin-block: 20px;
+    border-radius: 10px;
+}
+.header-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+    background-color: var(--bright-yellow);
+    padding: 10px;
+    border-radius: 10px;
+}
+.header-content {
+
+}
+.header-heading {
+
+}
+.header-paragraph {
+
+}
