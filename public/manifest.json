@@ -3,6 +3,6 @@
   "name": "Share Bee Social Media Web App",
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#FFDA61",
+  "theme_color": "#393E41",
   "background_color": "#F6F7EB"
 }
