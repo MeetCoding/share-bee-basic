@@ -3,7 +3,7 @@ import './App.css';
 import Loading from './components/loading/Loading';
 import Feed from './components/feed/Feed';
 
-const POST_COUNT = 3;
+const POST_COUNT = 50;
 
 class App extends Component {
 

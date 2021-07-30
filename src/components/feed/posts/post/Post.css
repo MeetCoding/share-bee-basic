@@ -14,12 +14,19 @@
     margin-right: 30px;
     background-color: var(--bright-yellow);
     border-radius: 10px;
+    margin: 10px;
 }
 .post-content {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 5px;
 }
 .post-name {
     font-size: 20px;
+    margin-bottom: 0;
+    text-decoration: underline;
 }
 .post-text {
 
