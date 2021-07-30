@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from './../../assets/logo.svg';
-import './Loading.css'
+import './Loading.css';
 
 let Loading = () =>
 <div className='loading'>
@@ -11,4 +11,4 @@ let Loading = () =>
     />
 </div>
 
-export default Loading
+export default Loading;
