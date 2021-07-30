@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Loading from './components/loading/Loading';
-import Feed from './Feed'
+import Feed from './components/feed/Feed';
 
 const POST_COUNT = 3;
 

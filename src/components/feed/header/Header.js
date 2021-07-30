@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Header.css';
 import text from './HeaderParagraph'
-import logo from './../../assets/logo.svg'
+import logo from './../../../assets/logo.svg'
 
 export class Header extends Component {
     render() {
