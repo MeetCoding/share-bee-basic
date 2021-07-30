@@ -18,11 +18,7 @@ export class Posts extends Component {
             )
         })
 
-        return (
-            <div>
-                
-            </div>
-        )
+        return posts;
     }
 }
 
