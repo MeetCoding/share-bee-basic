@@ -1,4 +1,10 @@
 body, html {
+  --white: #F6F7EB;
+  --bright-yellow: #FFDA61;
+  --dark-yellow: #FACB2E;
+  --orange: #FC7753;
+  --black: #393E41;
   margin: 0;
   padding: 0;
+  background-color: var(--white);
 }
