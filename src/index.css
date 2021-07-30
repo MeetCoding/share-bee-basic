@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,700&display=swap');
 body, html {
 
   --white: #F6F7EB;
@@ -20,4 +21,6 @@ body, html {
   align-items: center;
 
   overflow: hidden;
+
+  font-family: 'Ubuntu', sans-serif;
 }

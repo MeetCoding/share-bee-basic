@@ -3,7 +3,7 @@ import './App.css';
 import Loading from './components/loading/Loading';
 import Feed from './Feed'
 
-const PEOPLE_DATA_SIZE = 10;
+const POST_COUNT = 50;
 
 class App extends Component {
 
@@ -11,7 +11,8 @@ class App extends Component {
     super();
     this.state = {
       isLoading: true,
-      people: []
+      people: [],
+      loadStatus: 0
     }
     this.fetchPeopleData = this.fetchPeopleData.bind(this);
   }
@@ -23,9 +24,10 @@ class App extends Component {
   }
 
   fetchPeopleData(txtgen, i) {
-
-    if(i===PEOPLE_DATA_SIZE) {
+    this.setState({ loadStatus: i });
+    if(i===POST_COUNT) {
       this.setState({isLoading: false});
+      console.log(this.state.people);
       return;
     }
 
@@ -58,7 +60,7 @@ class App extends Component {
       <div className="app">
         {
           this.state.isLoading?
-          <Loading/>:
+          <Loading status={this.state.loadStatus} postCount={POST_COUNT}/>:
           <Feed data={this.state.people}/>
         }
       </div>

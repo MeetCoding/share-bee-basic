@@ -2,15 +2,23 @@
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .loading-logo {
     width: 150px;
+    margin-top: auto;
     animation-name: spin;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+}
+.loading-heading {
+    font-weight: lighter;
+    margin-top: auto;
+    margin-bottom: 20px;
+    font-size: 20px;
 }
 @keyframes spin {
     from { transform: rotate(0deg); }
