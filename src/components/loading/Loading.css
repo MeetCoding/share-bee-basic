@@ -17,7 +17,7 @@
 .loading-heading {
     font-weight: lighter;
     margin-top: auto;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     font-size: 20px;
 }
 @keyframes spin {
